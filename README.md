@@ -1,6 +1,6 @@
 # Deepfake Detection Under Real-World Degradation
 
-[![CI](https://github.com/sandeep848/Deepfake-Detection-Using-EfficientnetB0/actions/workflows/ci.yml/badge.svg)](https://github.com/sandeep848/Deepfake-Detection-Using-EfficientnetB0/actions)
+[![CI](https://github.com/sandeep848/deepfake-robustness-benchmark/actions/workflows/ci.yml/badge.svg)](https://github.com/sandeep848/deepfake-robustness-benchmark/actions)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C.svg)](https://pytorch.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -36,8 +36,8 @@ flowchart TD
 ## Installation
 
 ~~~bash
-git clone https://github.com/sandeep848/Deepfake-Detection-Using-EfficientnetB0.git
-cd Deepfake-Detection-Using-EfficientnetB0
+git clone https://github.com/sandeep848/deepfake-robustness-benchmark.git
+cd deepfake-robustness-benchmark
 python -m venv .venv
 source .venv/bin/activate
 pip install -e ".[dev,app,face_extraction]"
